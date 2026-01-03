@@ -3,3 +3,4 @@
 2. Fast-foward 실습 추가
 3. 3-way merge 실습. B 브랜치에서 작업
 4. hard reset
+5. revert
