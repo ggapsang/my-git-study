@@ -1,0 +1,9 @@
+name: Hello-World-Action
+on: [push] # 어떤 사건이 일어날 때 실행할지 (여기서는 push 이벤트 시)
+
+jobs:
+  say-hello: # 작업 이름
+  runs-on: unbuntu-latest # GitHub가 빌려줄 가상 컴퓨터 운영체제
+  steps:
+    - name: Say Hello # 단계 이름
+      run: echo "Hello, GiHub Actions! Push event has occurred." # 실행할 명령어
